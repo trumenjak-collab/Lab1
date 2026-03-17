@@ -47,6 +47,7 @@
             labelrad.Size = new Size(24, 15);
             labelrad.TabIndex = 0;
             labelrad.Text = "rad";
+            labelrad.Click += labelrad_Click;
             // 
             // labelodmor
             // 
@@ -74,6 +75,7 @@
             textBoxrad.Name = "textBoxrad";
             textBoxrad.Size = new Size(100, 23);
             textBoxrad.TabIndex = 3;
+            textBoxrad.TextChanged += textBoxrad_TextChanged;
             // 
             // textBoxodmor
             // 
